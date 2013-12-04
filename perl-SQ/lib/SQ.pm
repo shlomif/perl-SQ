@@ -41,5 +41,13 @@ Contains a string of the single quote - “C<'>”.
 
 =cut
 
+use parent 'Exporter';
+
+use vars ( qw( @EXPORT $s $q $sq) );
+
+@EXPORT = ( qw($s $q $sq) );
+
+$s = $q = $sq = q#'#;
+
 1;
 
