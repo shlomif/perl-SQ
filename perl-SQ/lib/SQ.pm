@@ -51,3 +51,15 @@ $s = $q = $sq = q#'#;
 
 1;
 
+__END__
+
+=head1 DONATIONS
+
+If you find this module or any of my other software useful, then I would
+appreciate a donation, either monetary or of a book from my wishlist. For
+more information, see:
+
+L<http://www.shlomifish.org/meta/donate/> .
+
+=cut
+
