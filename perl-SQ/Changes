@@ -1,4 +1,8 @@
 Revision history for SQ
 
+v0.0.2      2013-12-05
+    - Convert from 'use parent Exporter' to 'use Exporter import'
+        - Thanks to Olivier Mengué.
+
 v0.0.1      2013-12-04
     - First version, released on an unsuspecting world
