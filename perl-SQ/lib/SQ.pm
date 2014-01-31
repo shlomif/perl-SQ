@@ -5,7 +5,7 @@ use warnings;
 
 use 5.008;
 
-our $VERSION = '0.0.2';
+our $VERSION = '0.0.3';
 
 =encoding utf8
 
