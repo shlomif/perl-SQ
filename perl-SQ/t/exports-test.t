@@ -3,18 +3,12 @@
 use strict;
 use warnings;
 
-use Test::More tests => 3;
+use Test::More tests => 1;
 
 use SQ;
 
 {
     # TEST
-    is ($s, q#'#, "dollar-s contains a single quote.");
-
-    # TEST
-    is ($q, q#'#, "dollar-q contains a single quote.");
-
-    # TEST
-    is ($sq, q#'#, "dollar-sq contains a single quote.");
+    is ($S, q#'#, "dollar-s contains a single quote.");
 }
 
