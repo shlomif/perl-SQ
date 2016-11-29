@@ -5,17 +5,13 @@ use warnings;
 
 use 5.008;
 
-our $VERSION = '0.0.5';
+our $VERSION = 'v0.0.5';
 
 =encoding utf8
 
 =head1 NAME
 
 SQ - easily have a string containing single quote (') from the command line.
-
-=head1 VERSION
-
-Version 0.0.1
 
 =head1 SYNOPSIS
 
