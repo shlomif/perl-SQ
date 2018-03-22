@@ -14,3 +14,7 @@ with $S which expands to a single-quote.
 =item * MetaCPAN
 
 L<https://metacpan.org/release/SQ> .
+
+=back
+
+=cut
