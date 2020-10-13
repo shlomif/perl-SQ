@@ -5,8 +5,6 @@ use warnings;
 
 use 5.008;
 
-our $VERSION = 'v0.0.5';
-
 =encoding utf8
 
 =head1 NAME
@@ -33,9 +31,9 @@ Contains a string of the single quote - “C<'>”.
 
 use Exporter 5.57 'import';
 
-use vars ( qw( @EXPORT $S) );
+use vars (qw( @EXPORT $S));
 
-@EXPORT = ( qw($S) );
+@EXPORT = (qw($S));
 
 $S = q#'#;
 
@@ -52,4 +50,3 @@ more information, see:
 L<http://www.shlomifish.org/meta/donate/> .
 
 =cut
-
